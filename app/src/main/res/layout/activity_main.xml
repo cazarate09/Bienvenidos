@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.carlos.bienvenidos.MainActivity"
+    android:focusable="false"
+    android:clickable="false"
+    android:background="@android:color/holo_blue_dark"
+    style="@style/Base.Animation.AppCompat.DropDownUp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+
+        android:src="@drawable/marciano"
+        android:layout_marginTop="270dp"
+        android:laayout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="@string/entrar"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/BLANCO"
+        android:gravity="center_vertical|center_horizontal"
+        android:lines="@integer/abc_config_activityDefaultDur"
+        android:maxLines="@integer/cancel_button_image_alpha"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:id="@+id/textView2"
+
+        android:layout_marginTop="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/BLANCO"
+        android:fontFamily="@string/abc_capital_on"
+        android:singleLine="false"
+        android:nestedScrollingEnabled="false"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+</RelativeLayout>
